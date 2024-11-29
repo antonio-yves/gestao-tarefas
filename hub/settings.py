@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
+import sys
 from pathlib import Path
 
 from decouple import config, Csv
@@ -32,6 +33,8 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Application definition
 
+sys.modules['fontawesome_free'] = __import__('fontawesome-free')
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,7 +47,7 @@ INSTALLED_APPS = [
     'apps.todo',
 
     # Third Apps
-    'fontawesome-free',
+    'fontawesome_free',
 ]
 
 MIDDLEWARE = [
