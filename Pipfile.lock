@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fb5fdf64049a6b34fe6f8c87fafbcfa09333f798f969227eecbadf50fcfc40bb"
+            "sha256": "e88a7a9590fd795e6fd3be7d30ae2db5fbc54cdc76febd6af81f6cd6de2d653a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,13 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==4.2.16"
+        },
+        "fontawesome-free": {
+            "hashes": [
+                "sha256:5d3d0edbf6ce0f7cd56978a31ea4ea697a8bb28103b5c528b3aa1f0a4474d9a1"
+            ],
+            "index": "pypi",
+            "version": "==5.15.4"
         },
         "psycopg": {
             "extras": [

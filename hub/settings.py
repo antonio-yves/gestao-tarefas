@@ -42,6 +42,9 @@ INSTALLED_APPS = [
 
     # Project Apps
     'apps.todo',
+
+    # Third Apps
+    'fontawesome-free',
 ]
 
 MIDDLEWARE = [
