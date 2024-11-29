@@ -4,5 +4,6 @@ django==4.2.16; python_version >= '3.8'
 psycopg[binary,pool]==3.2.3; python_version >= '3.8'
 psycopg-binary==3.2.3
 psycopg-pool==3.2.4
+python-decouple==3.8
 sqlparse==0.5.2; python_version >= '3.8'
 typing-extensions==4.12.2; python_version < '3.13'
